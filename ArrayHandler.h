@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <cstdint>
 
 class ArrayHandler{
 private:
@@ -45,7 +46,7 @@ public:
     }
     void Print(){
         for (int i = 0; i < _lenght; i++){
-            std::cout<<_array[i]<<" "<<std::endl;
+            std::cout<<_array[i]<<" ";
         }
         std::cout<<std::endl;
     }
