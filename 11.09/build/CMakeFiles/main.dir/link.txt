@@ -1,1 +1,1 @@
-/usr/bin/g++-12  -std=c++20 -g CMakeFiles/main.dir/main.cpp.o -o main 
+/usr/bin/g++-12  -std=c++20 -g CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Patient.cpp.o CMakeFiles/main.dir/Doctor.cpp.o CMakeFiles/main.dir/PatientQueue.cpp.o -o main 

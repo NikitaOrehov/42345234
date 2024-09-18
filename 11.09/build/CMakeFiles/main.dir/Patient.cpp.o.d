@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/main.cpp.o: \
- /home/s23380409@unn.global/project/SecondYear/11.09/main.cpp \
+CMakeFiles/main.dir/Patient.cpp.o: \
+ /home/s23380409@unn.global/project/SecondYear/11.09/Patient.cpp \
  /usr/include/stdc-predef.h \
  /home/s23380409@unn.global/project/SecondYear/11.09/Patient.h \
  /usr/include/c++/12/string \
@@ -192,6 +192,4 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/12/bits/random.tcc /usr/include/c++/12/numeric \
  /usr/include/c++/12/bits/stl_numeric.h /usr/include/c++/12/bit \
  /usr/include/c++/12/pstl/glue_numeric_defs.h \
- /usr/include/c++/12/pstl/execution_defs.h \
- /home/s23380409@unn.global/project/SecondYear/11.09/PatientQueue.h \
- /home/s23380409@unn.global/project/SecondYear/11.09/Doctor.h
+ /usr/include/c++/12/pstl/execution_defs.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s23380409@unn.global/project/11.09
+CMAKE_SOURCE_DIR = /home/s23380409@unn.global/project/SecondYear/11.09
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s23380409@unn.global/project/11.09/build
+CMAKE_BINARY_DIR = /home/s23380409@unn.global/project/SecondYear/11.09/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,28 +72,76 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s23380409@unn.global/project/11.09/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380409@unn.global/project/11.09/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380409@unn.global/project/SecondYear/11.09/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s23380409@unn.global/project/11.09/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s23380409@unn.global/project/SecondYear/11.09/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s23380409@unn.global/project/11.09/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s23380409@unn.global/project/SecondYear/11.09/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+
+CMakeFiles/main.dir/Patient.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Patient.cpp.o: ../Patient.cpp
+CMakeFiles/main.dir/Patient.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Patient.cpp.o"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Patient.cpp.o -MF CMakeFiles/main.dir/Patient.cpp.o.d -o CMakeFiles/main.dir/Patient.cpp.o -c /home/s23380409@unn.global/project/SecondYear/11.09/Patient.cpp
+
+CMakeFiles/main.dir/Patient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Patient.cpp.i"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s23380409@unn.global/project/SecondYear/11.09/Patient.cpp > CMakeFiles/main.dir/Patient.cpp.i
+
+CMakeFiles/main.dir/Patient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Patient.cpp.s"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s23380409@unn.global/project/SecondYear/11.09/Patient.cpp -o CMakeFiles/main.dir/Patient.cpp.s
+
+CMakeFiles/main.dir/Doctor.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Doctor.cpp.o: ../Doctor.cpp
+CMakeFiles/main.dir/Doctor.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/Doctor.cpp.o"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Doctor.cpp.o -MF CMakeFiles/main.dir/Doctor.cpp.o.d -o CMakeFiles/main.dir/Doctor.cpp.o -c /home/s23380409@unn.global/project/SecondYear/11.09/Doctor.cpp
+
+CMakeFiles/main.dir/Doctor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Doctor.cpp.i"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s23380409@unn.global/project/SecondYear/11.09/Doctor.cpp > CMakeFiles/main.dir/Doctor.cpp.i
+
+CMakeFiles/main.dir/Doctor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Doctor.cpp.s"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s23380409@unn.global/project/SecondYear/11.09/Doctor.cpp -o CMakeFiles/main.dir/Doctor.cpp.s
+
+CMakeFiles/main.dir/PatientQueue.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/PatientQueue.cpp.o: ../PatientQueue.cpp
+CMakeFiles/main.dir/PatientQueue.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/PatientQueue.cpp.o"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/PatientQueue.cpp.o -MF CMakeFiles/main.dir/PatientQueue.cpp.o.d -o CMakeFiles/main.dir/PatientQueue.cpp.o -c /home/s23380409@unn.global/project/SecondYear/11.09/PatientQueue.cpp
+
+CMakeFiles/main.dir/PatientQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/PatientQueue.cpp.i"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s23380409@unn.global/project/SecondYear/11.09/PatientQueue.cpp > CMakeFiles/main.dir/PatientQueue.cpp.i
+
+CMakeFiles/main.dir/PatientQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/PatientQueue.cpp.s"
+	/usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s23380409@unn.global/project/SecondYear/11.09/PatientQueue.cpp -o CMakeFiles/main.dir/PatientQueue.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.o"
+"CMakeFiles/main.dir/main.cpp.o" \
+"CMakeFiles/main.dir/Patient.cpp.o" \
+"CMakeFiles/main.dir/Doctor.cpp.o" \
+"CMakeFiles/main.dir/PatientQueue.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/Patient.cpp.o
+main: CMakeFiles/main.dir/Doctor.cpp.o
+main: CMakeFiles/main.dir/PatientQueue.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s23380409@unn.global/project/11.09/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +153,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/s23380409@unn.global/project/11.09/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s23380409@unn.global/project/11.09 /home/s23380409@unn.global/project/11.09 /home/s23380409@unn.global/project/11.09/build /home/s23380409@unn.global/project/11.09/build /home/s23380409@unn.global/project/11.09/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/s23380409@unn.global/project/SecondYear/11.09/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s23380409@unn.global/project/SecondYear/11.09 /home/s23380409@unn.global/project/SecondYear/11.09 /home/s23380409@unn.global/project/SecondYear/11.09/build /home/s23380409@unn.global/project/SecondYear/11.09/build /home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

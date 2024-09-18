@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s23380409@unn.global/project/11.09
+CMAKE_SOURCE_DIR = /home/s23380409@unn.global/project/SecondYear/11.09
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s23380409@unn.global/project/11.09/build
+CMAKE_BINARY_DIR = /home/s23380409@unn.global/project/SecondYear/11.09/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s23380409@unn.global/project/11.09/build/CMakeFiles /home/s23380409@unn.global/project/11.09/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles /home/s23380409@unn.global/project/SecondYear/11.09/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s23380409@unn.global/project/11.09/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s23380409@unn.global/project/SecondYear/11.09/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,78 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Doctor.o: Doctor.cpp.o
+.PHONY : Doctor.o
+
+# target to build an object file
+Doctor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Doctor.cpp.o
+.PHONY : Doctor.cpp.o
+
+Doctor.i: Doctor.cpp.i
+.PHONY : Doctor.i
+
+# target to preprocess a source file
+Doctor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Doctor.cpp.i
+.PHONY : Doctor.cpp.i
+
+Doctor.s: Doctor.cpp.s
+.PHONY : Doctor.s
+
+# target to generate assembly for a file
+Doctor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Doctor.cpp.s
+.PHONY : Doctor.cpp.s
+
+Patient.o: Patient.cpp.o
+.PHONY : Patient.o
+
+# target to build an object file
+Patient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Patient.cpp.o
+.PHONY : Patient.cpp.o
+
+Patient.i: Patient.cpp.i
+.PHONY : Patient.i
+
+# target to preprocess a source file
+Patient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Patient.cpp.i
+.PHONY : Patient.cpp.i
+
+Patient.s: Patient.cpp.s
+.PHONY : Patient.s
+
+# target to generate assembly for a file
+Patient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Patient.cpp.s
+.PHONY : Patient.cpp.s
+
+PatientQueue.o: PatientQueue.cpp.o
+.PHONY : PatientQueue.o
+
+# target to build an object file
+PatientQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/PatientQueue.cpp.o
+.PHONY : PatientQueue.cpp.o
+
+PatientQueue.i: PatientQueue.cpp.i
+.PHONY : PatientQueue.i
+
+# target to preprocess a source file
+PatientQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/PatientQueue.cpp.i
+.PHONY : PatientQueue.cpp.i
+
+PatientQueue.s: PatientQueue.cpp.s
+.PHONY : PatientQueue.s
+
+# target to generate assembly for a file
+PatientQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/PatientQueue.cpp.s
+.PHONY : PatientQueue.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... Doctor.o"
+	@echo "... Doctor.i"
+	@echo "... Doctor.s"
+	@echo "... Patient.o"
+	@echo "... Patient.i"
+	@echo "... Patient.s"
+	@echo "... PatientQueue.o"
+	@echo "... PatientQueue.i"
+	@echo "... PatientQueue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
